@@ -68,7 +68,7 @@ Create a record in Route 53:<br />
 <br />
 <br />
 
-Navigate to Create custom domain. For custom domain, use auth.<labdomain>. Under AWS managed certificate, select the listed ACM certificate. Click Create custom domain
+Navigate to Create custom domain. For custom domain, use `auth.<labdomain>`. Under AWS managed certificate, select the listed ACM certificate. Click Create custom domain
  <br/>
  
 <p align="center">
