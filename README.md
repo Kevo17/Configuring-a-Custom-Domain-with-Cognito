@@ -15,7 +15,7 @@ In this hands-on lab, you will configure a number of AWS services, such as Cogni
 Under Pool name, enter "CognitoLab". Make sure to select the “Don’t Generate a client secret” option. Create the User Pool with other settings set to default <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/IYHfgaR.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -27,7 +27,7 @@ Under Pool name, enter "CognitoLab". Make sure to select the “Don’t Generate
 - Click Request. <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/lwi9shj.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -36,16 +36,16 @@ Under Pool name, enter "CognitoLab". Make sure to select the “Don’t Generate
 Route 53 hosted zone name to copy to fill in for the fully qualified domain name when requesting certificate <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/D2pSn7K.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
 <br />
 
-Click the domain name and then click create record<br/>
+Click the domain name and then click create records<br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/aPq7vM6.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -62,7 +62,7 @@ Create a record in Route 53:<br />
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/mKhel8o.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -72,7 +72,7 @@ Navigate to Create custom domain. For custom domain, use `auth.<labdomain>`. Und
  <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/AmyZsDD.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -90,7 +90,7 @@ Navigate to the Hosted Zones in Route 53 and select the listed domain name to cr
  <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/Yc7UQLX.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -107,7 +107,9 @@ Navigate to the Hosted Zones in Route 53 and select the listed domain name to cr
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/hoBdM7p.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/bq83BBM.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/5pRCupV.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -125,7 +127,7 @@ Navigate to the Hosted Zones in Route 53 and select the listed domain name to cr
  <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/5pRCupV.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -134,7 +136,7 @@ Navigate to the Hosted Zones in Route 53 and select the listed domain name to cr
 Ssh into the EC2 instance.<br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/eywHAkP.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -145,7 +147,7 @@ git clone https://github.com/linuxacademy/content-aws-sam
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/Qf5KmEb.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -156,7 +158,7 @@ cd content-aws-sam/labs/Configuring-Custom-Domain-Cognito/app
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/hoL7JCF.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -167,7 +169,18 @@ npm install
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/lzIcJYq.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+</p>
+
+<br />
+<br />
+
+Move into the src directory:
+cd src
+<br/>
+ 
+<p align="center">
+<img src="https://i.imgur.com/xlmk3JZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -178,7 +191,7 @@ ls
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/kDYEarU.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -195,7 +208,7 @@ In the Amplify.configure section, fill in the following values:
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/NxnyjsC.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -209,7 +222,7 @@ npm run build<br/>
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/E8Riqi5.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -222,7 +235,7 @@ cd dist
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/TEEPkgU.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -235,7 +248,7 @@ aws s3 sync . `s3://www.labdomain` <br/>
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/mVCWlmR.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
@@ -248,7 +261,7 @@ Click Sign in with Cognito, and you should land at a Cognito login page.<br/>
 <br/>
  
 <p align="center">
-<img src="https://i.imgur.com/zvvF6rZ.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
+<img src="https://i.imgur.com/icgDcKf.png" height="80%" width="80%" alt="Disk Sanitization Step"/>
 </p>
 
 <br />
