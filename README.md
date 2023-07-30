@@ -9,6 +9,7 @@ In this hands-on lab, you will configure a number of AWS services, such as Cogni
 
 - <b>Windows 11</b>
 - <b>AWS</b>
+- <b>Linux</b>
   
 <h2>Program walk-through:</h2>
 
